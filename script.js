@@ -1,13 +1,10 @@
 const buildTable = (student) => {
     const wrapper = document.createElement('div');
     wrapper.id = student.nim;
-
     // <table>
     const table = document.createElement('table');
-    
     // <thead>
     const thead = document.createElement('thead');
-    
     // <th>
     const th = document.createElement('th');
     // <h1>
